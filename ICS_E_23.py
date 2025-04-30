@@ -103,9 +103,9 @@ if __name__ == "__main__":
     disc_cart.add_item("Orange", 96, 11.50)
     disc_cart.add_item("Kiwi", 85, 9.60)
     print(">>> Applying a 15% Discount <<<")
-
     # ─────────────────────────────────────────────────────────────────────────────
     """IMPLEMENT LOGIC TO PRINT THE DISCOUNTED CART ON TERMINAL"""
+    checkout(disc_cart)
 
     # 3) Applying Tax
     taxed_cart = TaxedCart(tax_rate=0.07)

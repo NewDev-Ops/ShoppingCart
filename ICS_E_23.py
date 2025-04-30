@@ -108,7 +108,7 @@ if __name__ == "__main__":
     checkout(disc_cart)
 
     # 3) Applying Tax
-    taxed_cart = TaxedCart(tax_rate=0.07)
+    taxed_cart = TaxedCart(tax_rate=0.12)
     taxed_cart.add_item("Papaya", 5, 2.00)
     taxed_cart.add_item("Orange", 96, 11.50)
     taxed_cart.add_item("Kiwi", 3, 1.50)
